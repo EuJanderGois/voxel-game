@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=3 uid="uid://12b3k6ldo824"]
+
+[ext_resource type="Script" uid="uid://dgib3rpcbgchx" path="res://scenes/main/main_scene.gd" id="1_0f027"]
+[ext_resource type="PackedScene" uid="uid://baienbfalnn3d" path="res://res/blocks/dirt/dirt.tscn" id="2_pw63i"]
+[ext_resource type="PackedScene" uid="uid://cgkiemgm3dr4d" path="res://res/entities/player/player.tscn" id="3_7ykc4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0f027"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_o3jxj"]
+material = SubResource("StandardMaterial3D_0f027")
+
+[node name="main_scene" type="Node3D"]
+script = ExtResource("1_0f027")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+visible = false
+mesh = SubResource("BoxMesh_o3jxj")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.965691, 0.259696, 0, -0.259696, 0.965691, 0, 3.11052, 6.00632)
+light_energy = 2.0
+
+[node name="dirt" parent="." instance=ExtResource("2_pw63i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.077, 1.273, -3)
+
+[node name="player" parent="." instance=ExtResource("3_7ykc4")]

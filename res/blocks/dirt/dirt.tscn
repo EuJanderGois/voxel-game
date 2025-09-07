@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=3 uid="uid://baienbfalnn3d"]
+
+[ext_resource type="Script" uid="uid://bewyr6fbx07on" path="res://res/blocks/dirt/Dirt.cs" id="1_lwlri"]
+[ext_resource type="Material" uid="uid://cqkiwepem8khi" path="res://res/blocks/dirt/dirt_material.tres" id="2_uhraw"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sumfw"]
+albedo_color = Color(0, 0.38836, 0.122955, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_lonx7"]
+material = SubResource("StandardMaterial3D_sumfw")
+size = Vector2(1, 1)
+
+[node name="dirt" type="Node3D"]
+script = ExtResource("1_lwlri")
+
+[node name="front" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.975913, 0, 0, 0, -4.26585e-08, -0.975913, 0, 0.975913, -4.26585e-08, 0, 0, 0.5)
+material_override = ExtResource("2_uhraw")
+mesh = SubResource("PlaneMesh_lonx7")
+surface_material_override/0 = ExtResource("2_uhraw")
+
+[node name="back" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, -0.5)
+mesh = SubResource("PlaneMesh_lonx7")
+
+[node name="right" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, -0.5, 0, 0)
+mesh = SubResource("PlaneMesh_lonx7")
+surface_material_override/0 = ExtResource("2_uhraw")
+
+[node name="left" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0, 1, 0.5, 0, 0)
+mesh = SubResource("PlaneMesh_lonx7")
+surface_material_override/0 = ExtResource("2_uhraw")
+
+[node name="up" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+mesh = SubResource("PlaneMesh_lonx7")
+surface_material_override/0 = ExtResource("2_uhraw")
+
+[node name="down" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 0, -0.5, 0)
+mesh = SubResource("PlaneMesh_lonx7")
+surface_material_override/0 = ExtResource("2_uhraw")
