@@ -82,6 +82,10 @@ Esse projeto não busca ser um clone de Minecraft, mas sim um **laboratório de 
 
 ---
 
+## 👁️ Veja Também
+- ### [Changelog](CHANGELOG.MD)
+- ### [Contributing](CONTRIBUTING.MD)
+
 ## 📜 Licença
 
 Este projeto é apenas para **uso educacional e pessoal**.  
