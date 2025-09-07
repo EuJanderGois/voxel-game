@@ -1,0 +1,426 @@
+{
+  "source_base_path": "C:/Users/User/Documents/protoripo-voxel",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CHANGELOG.MD",
+      "output": {
+        ".html": {
+          "relative_path": "CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CONTRIBUTING.MD",
+      "output": {
+        ".html": {
+          "relative_path": "CONTRIBUTING.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.MD",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Blocks.Block.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Blocks.Block.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Blocks.Block.MethodName",
+      "Summary": "<p sourcefile=\"api/Game.Blocks.Block.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Blocks.Block.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Blocks.Block.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Blocks.Block.PropertyName",
+      "Summary": "<p sourcefile=\"api/Game.Blocks.Block.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Blocks.Block.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Blocks.Block.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Blocks.Block.SignalName",
+      "Summary": "<p sourcefile=\"api/Game.Blocks.Block.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Blocks.Block.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Blocks.Block.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Blocks.Block",
+      "Summary": "<p sourcefile=\"api/Game.Blocks.Block.yml\" sourcestartlinenumber=\"1\">Representa um bloco. Todos os blocos do mundo são derivados desta classe.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Blocks.BlockFaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Blocks.BlockFaces.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Blocks.BlockFaces",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Blocks.Dirt.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Blocks.Dirt.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Blocks.Dirt.MethodName",
+      "Summary": "<p sourcefile=\"api/Game.Blocks.Dirt.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Blocks.Dirt.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Blocks.Dirt.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Blocks.Dirt.PropertyName",
+      "Summary": "<p sourcefile=\"api/Game.Blocks.Dirt.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Blocks.Dirt.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Blocks.Dirt.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Blocks.Dirt.SignalName",
+      "Summary": "<p sourcefile=\"api/Game.Blocks.Dirt.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Blocks.Dirt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Blocks.Dirt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Blocks.Dirt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Blocks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Blocks.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Blocks",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Entities.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Entities.Entity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Entities.Entity",
+      "Summary": "<pre><code class=\"lang-csharp\">Class</code></pre>\n<p sourcefile=\"api/Game.Entities.Entity.yml\" sourcestartlinenumber=\"2\">Representa uma entidade. Qualquer entidade no mundo herda as propriedades de entidade.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Entities.Player.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Entities.Player.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Entities.Player.MethodName",
+      "Summary": "<p sourcefile=\"api/Game.Entities.Player.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Entities.Player.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Entities.Player.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Entities.Player.PropertyName",
+      "Summary": "<p sourcefile=\"api/Game.Entities.Player.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Entities.Player.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Entities.Player.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Entities.Player.SignalName",
+      "Summary": "<p sourcefile=\"api/Game.Entities.Player.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Entities.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Entities.Player.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Entities.Player",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Entities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Entities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Items.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Items.Item.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Items.Item",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Items.ItemStack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Items.ItemStack.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Items.ItemStack",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Items.ItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Items.ItemType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Items.ItemType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Items.Tools.ToolType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Items.Tools.ToolType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Items.Tools.ToolType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Items.Tools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Items.Tools.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Items.Tools",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Items.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Items.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Game.Items",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

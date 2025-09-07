@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>&#129003; Voxel Game | Voxel Game </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="&#129003; Voxel Game | Voxel Game ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/EuJanderGois/voxel-game/blob/main/README.MD/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="Voxel Game">
+            Voxel Game
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="-voxel-game">🟫 Voxel Game</h1>
+
+<p>Um projeto <strong>inspirado em Minecraft</strong>, criado para fins de <strong>aprendizado em desenvolvimento de jogos 3D</strong> utilizando <strong>Godot 4</strong> e <strong>C#</strong>.<br>
+Esse projeto surgiu da minha paixão por Minecraft, que foi a minha primeira inspiração para começar a programar.</p>
+<hr>
+<h2 id="-funcionalidades-atuais">✨ Funcionalidades atuais</h2>
+<ul>
+<li>✅ Controle de movimento no estilo criativo do Minecraft</li>
+<li>✅ Sistema de câmera em primeira pessoa</li>
+<li>✅ Captura/liberação do cursor com a tecla <strong>E</strong></li>
+<li>✅ Estrutura de blocos com faces independentes</li>
+<li>✅ Raycast para detectar blocos no centro da tela</li>
+</ul>
+<hr>
+<h2 id="-em-desenvolvimento">🚧 Em desenvolvimento</h2>
+<ul>
+<li>🔲 Sistema de mineração com diferentes ferramentas</li>
+<li>🔲 Geração procedural de terreno</li>
+<li>🔲 Inventário e crafting</li>
+<li>🔲 Colocação e remoção de blocos</li>
+</ul>
+<hr>
+<h2 id="-tecnologias-utilizadas">🛠️ Tecnologias utilizadas</h2>
+<ul>
+<li><a href="https://godotengine.org/">Godot 4</a></li>
+<li>C# (Mono)</li>
+<li>Git + GitHub para versionamento</li>
+</ul>
+<hr>
+<h2 id="-controles">🎮 Controles</h2>
+<table>
+<thead>
+<tr>
+<th>Tecla</th>
+<th>Ação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>W / A / S / D</strong></td>
+<td>Movimentação</td>
+</tr>
+<tr>
+<td><strong>Espaço</strong></td>
+<td>Subir</td>
+</tr>
+<tr>
+<td><strong>Shift Esquerdo</strong></td>
+<td>Descer</td>
+</tr>
+<tr>
+<td><strong>Mouse</strong></td>
+<td>Olhar ao redor</td>
+</tr>
+<tr>
+<td><strong>E</strong></td>
+<td>Ativar/desativar o cursor</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-estrutura-do-projeto">📂 Estrutura do projeto</h2>
+<pre><code>VoxelGame/
+ ├── Game/
+ │   ├── Blocks/       # Lógica e classes dos blocos
+ │   ├── Entities/     # Jogador e entidades
+ │   └── Items/        # Ferramentas e itens
+ ├── Scenes/           # Cenas do Godot
+ ├── Scripts/          # Scripts auxiliares
+ └── README.md
+</code></pre>
+<hr>
+<h2 id="-como-rodar-o-projeto">🚀 Como rodar o projeto</h2>
+<ol>
+<li>Baixe o repositório:
+<pre><code class="lang-bash">git clone https://github.com/seu-usuario/voxel-game.git
+</code></pre>
+</li>
+<li>Abra no <strong>Godot 4 (Mono/C#)</strong>.</li>
+<li>Configure os inputs no <strong>Project Settings → Input Map</strong> (conforme a tabela de controles).</li>
+<li>Clique em <strong>Run ▶</strong> e divirta-se!</li>
+</ol>
+<hr>
+<h2 id="-objetivo-do-projeto">📌 Objetivo do projeto</h2>
+<p>Esse projeto não busca ser um clone de Minecraft, mas sim um <strong>laboratório de aprendizado</strong>, explorando:</p>
+<ul>
+<li>Estrutura de um engine 3D moderna</li>
+<li>Programação orientada a objetos em jogos</li>
+<li>Sistemas de voxel, chunk e otimização</li>
+<li>Boas práticas de organização de código em C#</li>
+</ul>
+<hr>
+<h2 id="-veja-também">👁️ Veja Também</h2>
+<ul>
+<li><h3 id="changelog"><a href="CHANGELOG.html">Changelog</a></h3>
+</li>
+<li><h3 id="contributing"><a href="CONTRIBUTING.html">Contributing</a></h3>
+</li>
+</ul>
+<h2 id="-licença">📜 Licença</h2>
+<p>Este projeto é apenas para <strong>uso educacional e pessoal</strong>.<br>
+Não possui fins comerciais e não tem vínculo oficial com Mojang/Minecraft.</p>
+<p>Você pode usar qualquer parte deste código desde que os devidos créditos a este repositório sejam incluidos em parte visível da aplicação/jogo.</p>
+<p>O autor não se responsabiliza pela utilização ou violação de uso de possíveis conteúdos de terceiros que possam estar associados a este projeto, portanto é de sua responsabilidade verificar a licença de uso para ativos de terceiros.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/EuJanderGois/voxel-game/blob/main/README.MD/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
